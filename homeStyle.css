@@ -1,0 +1,52 @@
+body {
+    background-image: url("background.jpg");
+}
+
+#homeTitle {
+    background-color: red;
+    display: inline;
+}
+
+#tabArea { 
+    float: right;
+    align-self: right;
+    background-color: blue;
+}
+
+#images { 
+    margin-top: 50px;
+}
+
+.categoryIMG {
+    height: 350px;
+    width: 350px;
+}
+
+#contactArea {
+    background-color: purple;
+    padding: 20px;
+}
+
+#contactLeft {
+    float: left;
+    padding-right: 20px;
+}
+
+input {
+    margin-top: 10px;
+}
+
+#contactRight {
+    float: left;
+}
+
+#description {
+    text-align: center; 
+    display: inline;
+}
+
+#contactSubmit {
+    clear: both;
+    padding-top: 20px;
+    text-align: center;
+}
