@@ -1,63 +1,73 @@
 <!DOCTYPE html>
-<html lang = "en">
-  <head>
+<head>
+    <title>RG SHOTZ</title> 
     <link rel = "stylesheet" href = "homeStyle.css">
-    <title> Ritesh Photography </title>
-  </head>
-  <body>
-    <h1 id = "homeTitle"> RITESH PHOTOGRAPHY </h1>
-    <div id = "tabArea">
-      <button class = "tabs"> <a href = "about.html"> About </a> </button>
-      <button class = "tabs"> <a href = "collage.html"> Collage </a> </button>
-      <button class = "tabs"> <a href = "contact.html"> Contact </a> </button>
-    </div>
-    <br/>
-    <div id = "images">
-      <img class = "categoryIMG" src="img1.jpg">
-      <img class = "categoryIMG" src="img2.jpg">
-    </div>
-
-    <h2 class = "category"> PORTRAITS </h2>
-    <h3 class = "category"> CATEGORY 1 </h3>
-    <img class = "categoryIMG" src="img3.jpg">
-    <h3 class = "category"> CATEGORY 2 </h3>
-    <img class = "categoryIMG" src="img4.jpg">
-    <h3 class = "category"> CATEGORY 3 </h3>
-    <img class = "categoryIMG" src="img5.jpg">
-
-    <h2 class = "category"> LANDSCAPES </h2>
-    <h3 class = "category"> CATEGORY 1 </h3>
-    <img class = "categoryIMG" src="img6.jpg">
-    <h3 class = "category"> CATEGORY 2 </h3>
-    <img class = "categoryIMG" src="img7.jpg">
-    <h3 class = "category"> CATEGORY 3 </h3>
-    <img class = "categoryIMG" src="img8.jpg">
-
-    <div id = "aboutArea">
-      <h2> ABOUT </h2>
-      <pre>
-
-
-
-
-      </pre>
-    </div>
-
-    <div id = "contactArea">
-      <h2> CONTACT </h2>
-      <form action = "">
-        <div id = "contactLeft">
-          <label> Name: <input type: = "text"> </input> </label>
-          <br/>
-          <label> Email: <input type: = "text"> </input> </label>
+</head>
+<body>
+    <div id = "display1">
+        <div id = "tabAreaLeft">
+            <table>
+                <tr>
+                    <td class = "tab"> <a href = "portrait.html"> PORTRAIT </a> </td>
+                    <td class = "tab"> <a href = "landscape.html"> LANDSCAPE </a> </td>
+                </tr>
+            </table>
         </div>
-        <div id = "contactRight">
-          <label id = "description"> Description: <textarea rows = "4" cols = "50"> </textarea> </label>
+        <h1 id = "title"> <a href = "home.html"> RG SHOTZ </a> </h1>
+        <div id = "tabAreaRight">
+            <table>
+                <tr>
+                    <td class = "tab"> <a href = "#display2"> ABOUT </a> </td>
+                    <td class = "tab"> <a href = "#display3"> CONTACT </a> </td>
+                </tr>
+            </table>
         </div>
-        <div id = "contactSubmit">
-          <label> <input type = "submit" value = "Submit Form"> </input> </label>
+        <div id = "slideContainer">
+            <img id = "slide" src = "">
         </div>
-    </form>
+        <div id = "arrows">
+            <p class="previous round" id = "back"> &lt; </p>
+            <p class="next round" id = "next"> &gt; </p>
+        </div>
     </div>
-  </body>
-</html>
+
+    <div id = "display2">
+        <img id = "aboutPhoto" src = "photos/self.JPG">
+        <div id = "aboutText">
+            <h2> Meet the Master </h2>
+            <p> My name is Ritesh Gautam. I have been a photographer for over 6 years now. I started off in high school after taking photography class. I grew a passion for the craft. I have over 1TB worth of photos that I have taken over the years. You will see my portrait photos and landscapes  from Baltimore and Atlanta. </p>
+        </div>
+    </div>
+
+    <div id = "display3">
+        <div id = "contactForm">
+            <h3> Contact if you have money, questions, or want photos taken </h3>    
+            <div id = "labels">
+                <p> Name: </p>
+                <p> Email: </p>
+                <p> Description: </p>
+            </div>
+            
+            <form id = "inputs" action="mailto:riteshbish540@gmail.com" method="post" enctype="text/plain">
+                <input type: = "text" name = "name" placeholder = "Name">
+                <br/>
+                <input type: = "text" name = "email" placeholder = "Email">
+                <br/>
+                <textarea form = "inputs" placeholder = "Need Shotz"></textarea>
+                <br>
+                <input type = "submit" value = "Send">
+                <br/>
+            </form>
+        </div>    
+        <div id = "social">
+            <h3> Also connect on the socials </h3>
+            <p> Instagram: instagram.com/riiteeshg </p>
+            <p> Twitter: twitter.com/riiteshg </p>
+            <p> Facebook: twitter.com/riiteshg </p>
+            <p> LinkedIn: twitter.com/riiteshg </p>
+            <p> MySpace: myspace.com/riiteshg </p>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src = "home.js"> </script>
