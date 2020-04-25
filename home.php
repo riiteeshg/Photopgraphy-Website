@@ -55,11 +55,13 @@ if($_POST['abandon']==True){
       <h2 id = "aboutLink"> ABOUT </h2>
       <p>
         My name is Ritesh! I have been taking photos for 5 + years. 
-        I've taken several photography classes in high school, 
-        where we worked with Film cameras and developing film to working 
-        with digital cameras in a studio setting. I have no bounds when 
-        it comes to what kind of photos I shoot. In this website, 
-        you will be able to see the variety of my photography.
+        In highschool, I took 2 photography classes which instilled the love
+        of photography within me. In the class, I learned how to work with Film 
+        cameras and developing them but also with digital cameras in 
+        a studio setting with proper lighting. I have no bounds when 
+        it comes to what kind of photos I shoot. 
+        In this website, you will be getting a peek into my world of 
+        Portrait and Landscape Photograpy. 
       </p>
     </div>
 
